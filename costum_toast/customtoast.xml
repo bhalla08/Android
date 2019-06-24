@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/custom_toast_layout"
+    android:background="#F14E23">
+
+    <ImageView
+        android:id="@+id/custom_toast_image"
+        android:layout_width="match_parent"
+        android:layout_height="244dp"
+        android:contentDescription="Hello World! Let us Dive into the world of Android."
+        android:src="@drawable/android2" />
+
+    <TextView
+        android:id="@+id/custom_toast_message"
+        android:layout_width="match_parent"
+        android:layout_height="129dp"
+        android:contentDescription="TO"
+        android:text="HELLO FELLOW USER"
+        android:textAlignment="center"
+        android:textSize="45dp"
+        />
+
+</LinearLayout>
